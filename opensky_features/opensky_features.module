@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the OpenSky Features feature.
+ */
+
+include_once 'opensky_features.features.inc';
