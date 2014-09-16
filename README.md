@@ -1,4 +1,4 @@
-opensky-modules
+opensky-features
 ===============
 
-Drupal Modules for OpenSky
+Drupal Features Module for OpenSky
