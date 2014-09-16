@@ -1,12 +1,4 @@
 name = OpenSky Features
-<<<<<<< HEAD
-description = This is the main OpenSky Features Module
-core = 7.x
-package = OpenSky Main Features
-version = 7.x-1.0-dev
-project = opensky_features
-dependencies[] = features
-=======
 core = 7.x
 package = Features
 version = 2.x-1.0-dev
@@ -14,22 +6,14 @@ project = opensky_features
 dependencies[] = features
 dependencies[] = islandora_solr
 dependencies[] = taxonomy
->>>>>>> 6cec0680ca41a5fc64a4927d39bf83a1710b2b96
 dependencies[] = text
 features[features_api][] = api:2
 features[field_base][] = body
 features[field_instance][] = node-page-body
-<<<<<<< HEAD
-features[menu_links][] = main-menu_browse:islandora/object/islandora%3Aroot
-features[menu_links][] = main-menu_home:<front>
-features[menu_links][] = main-menu_submit:node/5
-features[node][] = page
-=======
 features[islandora_solr_fields][] = all_solr_fields
 features[menu_links][] = main-menu_browse:http://islandora.dls.ucar.edu:8181/islandora
 features[menu_links][] = main-menu_home:<front>
 features[menu_links][] = main-menu_submit:node/5
 features[node][] = page
 features_exclude[dependencies][menu] = menu
->>>>>>> 6cec0680ca41a5fc64a4927d39bf83a1710b2b96
 features_exclude[dependencies][opensky_menus] = opensky_menus

@@ -10,34 +10,16 @@
 function opensky_features_menu_default_menu_links() {
   $menu_links = array();
 
-<<<<<<< HEAD
-  // Exported menu link: main-menu_browse:islandora/object/islandora%3Aroot
-  $menu_links['main-menu_browse:islandora/object/islandora%3Aroot'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'islandora/object/islandora%3Aroot',
-    'router_path' => 'islandora/object/%',
-=======
   // Exported menu link: main-menu_browse:http://islandora.dls.ucar.edu:8181/islandora
   $menu_links['main-menu_browse:http://islandora.dls.ucar.edu:8181/islandora'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'http://islandora.dls.ucar.edu:8181/islandora',
     'router_path' => '',
->>>>>>> 6cec0680ca41a5fc64a4927d39bf83a1710b2b96
     'link_title' => 'Browse',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-<<<<<<< HEAD
-      'identifier' => 'main-menu_browse:islandora/object/islandora%3Aroot',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 4,
-=======
       'identifier' => 'main-menu_browse:http://islandora.dls.ucar.edu:8181/islandora',
     ),
     'module' => 'menu',
@@ -46,7 +28,6 @@ function opensky_features_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => 3,
->>>>>>> 6cec0680ca41a5fc64a4927d39bf83a1710b2b96
     'customized' => 1,
   );
   // Exported menu link: main-menu_home:<front>

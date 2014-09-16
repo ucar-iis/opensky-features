@@ -5,8 +5,6 @@
  */
 
 /**
-<<<<<<< HEAD
-=======
  * Implements hook_islandora_solr_fields_features_default_fields().
  */
 function opensky_features_islandora_solr_fields_features_default_fields() {
@@ -14,7 +12,6 @@ function opensky_features_islandora_solr_fields_features_default_fields() {
 }
 
 /**
->>>>>>> 6cec0680ca41a5fc64a4927d39bf83a1710b2b96
  * Implements hook_node_info().
  */
 function opensky_features_node_info() {
